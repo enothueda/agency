@@ -1,13 +1,16 @@
 .slide-container {
-  width: 80%;
-  margin: auto; }
+  width: 80vw;
+  margin: auto;
+}
 
 .each-slide > div {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;
-  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35vh;
 }
 
 .each-slide span {

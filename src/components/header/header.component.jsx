@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
 
-import './header.css';
+import './header.styles.css';
 
 const Header = ()  => {
 	return (
@@ -10,11 +10,14 @@ const Header = ()  => {
 			<div className='menu'>
 				<p>Home</p>
 				<p>Services</p>
-				<p>Packages</p>
+				<p>Plans</p>
+				<p>About</p>
 				<p>Contact</p>
 			</div>
 			<div>
-				<p>COUNTRY</p>
+				<p>ENGLISH</p>
+				<p>/</p>
+				<p>ESPAÑOL</p>
 			</div>
 		</div>
 	);

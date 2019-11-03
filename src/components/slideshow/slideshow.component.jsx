@@ -10,11 +10,11 @@ import slide5 from '../../assets/slide5.jpg';
 import './slideshow.styles.css';
 
 //this is temporary, changed by the direct asignment above
-const slideImages = [
+/* const slideImages = [
   '../../assets/slide1.jpg',
   '../../assets/slide2.jpg',
   '../../assets/slide3.jpg'
-];
+]; */
  
 const properties = {
   duration: 5000,
