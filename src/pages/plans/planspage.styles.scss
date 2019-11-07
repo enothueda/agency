@@ -1,0 +1,10 @@
+.plans-page {
+	border-top: 2px solid black;
+
+	& .plans-display {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+}

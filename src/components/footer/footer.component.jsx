@@ -1,10 +1,12 @@
 import React from 'react';
 
-import './footer.styles.css';
+import ContactInfo from '../contact/contact-info.component';
+
+import './footer.styles.scss';
 
 const Footer = () => (
 	<footer className='footer'>
-		<div>
+		<div className='info'>
 			<h3>Mas información de la compañía</h3>
 			<p>
 				ehueda es una agencia de servicios digitales, enfocada a impulsar y mejorar las ventas de agronegocios
@@ -12,14 +14,15 @@ const Footer = () => (
 				y herramientas digitales modernas, de acuerdo a su estrategia comercial.
 			</p>
 		</div>
-		<div>
+		<div className='social-network'>
 			<h3>Redes Sociales</h3>
 			<div>
 				<img src='' />
 			</div>
 		</div>
-		<div>
+		<div className='contact'>
 			<h3>Contacto</h3>
+			<ContactInfo />
 		</div>
 	</footer>
 )

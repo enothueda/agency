@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 5px;
+	font-size: 18px;
 
 	& .logo {
 		height: 100px;
@@ -16,10 +17,14 @@
 		display: flex;
 		align-items: center;
 		justify-content: flex-end;
-		padding: 20px 0;
+		padding: 20px;
 
 
 		& .option {
+			padding: 20px 15px;
+		}
+
+		& p {
 			padding: 20px 15px;
 		}
 	}

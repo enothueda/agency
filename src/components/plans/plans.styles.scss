@@ -1,0 +1,12 @@
+.plans {
+	& h1 {
+		display: flex;
+		justify-content: center;
+	}
+
+	& .planslist {
+	  display: flex;
+	  justify-content: center;
+	}
+}
+

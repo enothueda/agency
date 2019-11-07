@@ -6,6 +6,8 @@ import './App.css';
 import Header from './components/header/header.component';
 import HomePage from './pages/homepage/homepage.component';
 import ServicesPage from './pages/services/servicespage.component';
+import PlansPage from './pages/plans/planspage.component';
+import ContactPage from './pages/contact/contact-page.component';
 import Footer from './components/footer/footer.component';
 
 const App = () => 
@@ -15,6 +17,8 @@ const App = () =>
     	<Switch>
 	      <Route exact path='/' component={HomePage} />
 	      <Route exact path='/services' component={ServicesPage} />
+	      <Route exact path='/plans' component={PlansPage} />
+	      <Route exact path='/contact' component={ContactPage} />
 	    </Switch>
 	    <Footer />
     </div>

@@ -2,6 +2,8 @@ import React from 'react';
 
 import SERVICES_DATA from '../../components/services/services.data';
 
+import './servicespage.styles.scss';
+
 import ServicesPreview from '../../components/services-preview/services-preview.component';
 
 class ServicesPage extends React.Component {
@@ -22,9 +24,7 @@ class ServicesPage extends React.Component {
 						this.state.services.map(({id, ...OtherServicesProps}) =>
 							<ServicesPreview key={id} {...OtherServicesProps} />
 						)
-					}
-
-					
+					}					
 				</div>				
 			</div>
 		)

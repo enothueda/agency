@@ -1,0 +1,14 @@
+.services {
+
+	& h1 {
+		display: flex;
+		justify-content: center;
+		}
+
+	& .serviceslist {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+

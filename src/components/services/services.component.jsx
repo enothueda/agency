@@ -3,7 +3,7 @@ import Card from '../card/card.component';
 
 import SERVICES_DATA from './services.data';
 
-import './services.styles.css';
+import './services.styles.scss';
 
 class Services extends React.Component {
 	constructor() {

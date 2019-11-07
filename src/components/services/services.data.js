@@ -11,17 +11,17 @@ const SERVICES_DATA = [
 		activities: [
 			{
 				id: 1,
-				name:'HTML, CSS and JS',
+				name:'FrontEnd: HTML, CSS, JS, WordPress, React',
 				description: 'Design in HTML, CSS and JS for your website'
 			},
 			{
 				id: 2,
-				name: 'WordPress',
+				name: 'BackEnd: SSR, PHP, Express, Node, MySQL, Postgresql',
 				description: 'Design in WordPress'
 			},
 			{
 				id: 3,
-				name: 'ecommerce',
+				name: 'ecommerce: Shopify, Node',
 				description: 'develop and update according to the platform'
 			}
 		]
@@ -39,12 +39,12 @@ const SERVICES_DATA = [
 			},
 			{
 				id: 2,
-				name: 'Social Network Strategy',
+				name: 'Social Media Strategy',
 				description: 'Creating value through your social media platforms'
 			},
 			{
 				id: 3,
-				name: 'Content Creation',
+				name: 'Content Creation, Photography and Video',
 				description: 'The best content will be created according to your needs and strategy'
 			}
 		]

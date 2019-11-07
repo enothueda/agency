@@ -3,7 +3,7 @@ import Card from '../card/card.component';
 
 import PLANS_DATA from './plans.data'
 
-import './plans.styles.css';
+import './plans.styles.scss';
 
 class Plans extends React.Component {
 	constructor() {
@@ -14,7 +14,7 @@ class Plans extends React.Component {
 	}
 	render() {
 		return(
-			<div>
+			<div className='plans'>
 				<h1>Which Plan fits according to your business</h1>
 				<div className='planslist'>
 		        	{

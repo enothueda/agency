@@ -1,0 +1,57 @@
+.plans-preview {
+	display: flex;
+	flex-direction: row;
+	font-size: 1.1em;
+	
+	& .row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: 5px;
+
+		& .column {
+			display: flex;
+			flex-direction: column;
+			flex-basis: 100%;
+			flex: 1;
+			align-items: center;
+
+			& .plans-preview-image {
+			width: 350px;
+			height: 200px;
+			background-position: center;
+			background-size: cover;
+			margin-bottom: 20px;
+			}
+		
+			& .plan {
+				display: flex;
+				flex-direction: column;
+				flex-basis: 100%;
+				flex: 1;
+				align-items: center;
+
+				& .details {
+					display: flex;
+					flex-direction: row;
+					flex-basis: 100%;
+					align-items: center;
+					margin-bottom: 20px;
+
+					& h3 {
+						padding: 0 10px;
+					}
+					
+					& .description-details {
+						padding: 0 10px;
+
+						& div {
+							padding: 5px;
+						}
+					}
+				}			
+			}
+		}	
+	}
+}

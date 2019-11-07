@@ -1,0 +1,17 @@
+.footer {
+	display: flex;
+	justify-content: center;
+
+	& .info {
+		width: 30%;
+	}
+
+	& .social-network {
+		width: 15%;
+		padding: 0 15px;
+	}
+
+	& .contact {
+		width: 15%
+	}
+}
