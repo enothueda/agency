@@ -13,7 +13,9 @@ const HomePage = () => (
 		<Link to="/services">
 	    	<Services />
 	    </Link>
-	    <Plans />
+	    <Link to="/plans">
+	    	<Plans />
+	    </Link>
 	</div>
 )
 
