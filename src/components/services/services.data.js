@@ -67,7 +67,7 @@ const SERVICES_DATA = [
 			},
 			{
 				id: 3,
-				name: 'Business Inteligence',
+				name: 'Business Intelligence',
 				description: 'Best strategies for improve your business will be created and gathered'
 			}
 		]

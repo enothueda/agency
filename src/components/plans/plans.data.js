@@ -5,103 +5,123 @@ import plan3 from '../../assets/plan3.jpg';
 const PLANS_DATA = [
 	{
 		id: 1,
-		title: 'Starter',
+		title: 'Professional',
 		imageUrl: plan1,
-		description: 'For those who are starting a business',
-		service1: 'Web & App Development',
+		description: 'Ideal for profesionals and small business that starting on digital services',
+		service1: 'Social Media Marketing',
 		activities1: [
 			{
 				id: 1,
-				activity: 'Project evaluation and scope'
+				activity: 'Set up/Optimization of key social media platforms'
 			},
 			{
 				id: 2,
-				activity: 'Wireframe and site architecture'
+				activity: 'Maintance of profile'
 			},
 			{
 				id: 3,
-				activity: 'Visual design and framework'
+				activity: 'Post key content (frequency based on platform)'
+			},
+			{
+				id: 4,
+				activity: 'Custom Video and Photography'
 			}
 		],
-		service2: 'Digital Marketing',
+		service2: 'Search Engine Optimization (SEO)',
 		activities2: [
 			{
 				id: 1,
-				activity: 'Evaluation of presence online'
+				activity: 'Keyword Analysis'
 			},
 			{
 				id: 2,
-				activity: 'Evaluation/Proposal of content needs/update'
+				activity: 'Monthly Search Audit'
 			},
 			{
 				id: 3,
-				activity: 'Set up/Optimization of key social media platforms'
+				activity: 'Local Search Optimization'
+			},
+			{
+				id: 4,
+				activity: 'Keyword Optimization on Website'
+			},
+			{
+				id: 5,
+				activity: 'Google Analytics Report'
 			}
 		],
-		service3: 'Data Management',
+		service3: 'Blog, Website and Content Creation',
 		activities3: [
 			{
 				id: 1,
-				activity: 'Evaluation of data needs'
+				activity: 'Content Design and review'
 			},
 			{
 				id: 2,
-				activity: 'Database and requirements proposal'
+				activity: 'Website/Blog Design and Framework'
 			},
 			{
 				id: 3,
-				activity: 'Server setup/management'
+				activity: 'Custom blog posting for industry'
+			},
+			{
+				id: 4,
+				activity: 'Content Analysis (in all platforms)'
+			},
+			{
+				id: 5,
+				activity: 'Monthly Updates'
 			}
 		]
 	},
 	{
 		id: 2,
-		title: 'Professional',
+		title: 'Business',
 		imageUrl: plan2,
 		description: 'A company or professional who wants to increase the customers base',
-		service1: 'Web & App Development',
+		service1: 'Social Media Marketing',
 		activities1: [
 			{
 				id: 1,
-				activity: 'Project evaluation and scope'
+				activity: 'Content Distribution to Social Media Platforms'
 			},
 			{
 				id: 2,
-				activity: 'Wireframe and site architecture'
+				activity: 'Engage with audience'
 			},
 			{
 				id: 3,
-				activity: 'Visual design and framework'
+				activity: 'Manage and Report Reviews & Rating'
 			}
 		],
-		service2: 'Digital Marketing',
+		service2: 'Search Engine Optimization (SEO)',
 		activities2: [
 			{
 				id: 1,
-				activity: 'Evaluation of presence online'
+				activity: 'Targeted Backlinks'
 			},
 			{
 				id: 2,
-				activity: 'Evaluation/Proposal of content needs/update'
+				activity: 'Site Submission to Search Engines'
 			},
 			{
 				id: 3,
-				activity: 'Set up/Optimization of key social media platforms'
+				activity: 'Up to 30 Keywords Tracked'
 			}
 		],
-		service3: 'Data Management',
+		service3: 'Blog, Website and Content Creation',
 		activities3: [
 			{
 				id: 1,
-				activity: 'Evaluation of data needs'
+				activity: 'Keyword Tagging with Metadata Included'
 			},
 			{
 				id: 2,
-				activity: 'Database and requirements proposal'
+				activity: 'Website Optimization and Updates'
 			},
 			{
 				id: 3,
-				activity: 'Server setup/management'
+				activity: 'Online Support and Performance Tracking'
 			}
 		]	
 	},
@@ -110,49 +130,49 @@ const PLANS_DATA = [
 		title: 'Enterprise',
 		imageUrl: plan3,
 		description: 'Business that want some support for increase capacity on Digital Technology',
-		service1: 'Web & App Development',
+		service1: 'Social Media Marketing',
 		activities1: [
 			{
 				id: 1,
-				activity: 'Project evaluation and scope'
+				activity: 'Upload to YouTube Fully Keyword Optimized'
 			},
 			{
 				id: 2,
-				activity: 'Wireframe and site architecture'
+				activity: 'Key Annotation on Video'
 			},
 			{
 				id: 3,
-				activity: 'Visual design and framework'
+				activity: 'Create / Clean up Company Profile on Citation Sites'
 			}
 		],
-		service2: 'Digital Marketing',
+		service2: 'Search Engine Optimization (SEO)',
 		activities2: [
 			{
 				id: 1,
-				activity: 'Evaluation of presence online'
+				activity: 'Up to 100 Keywords Tracked'
 			},
 			{
 				id: 2,
-				activity: 'Evaluation/Proposal of content needs/update'
+				activity: 'Social Bookmarking of Key Content'
 			},
 			{
 				id: 3,
-				activity: 'Set up/Optimization of key social media platforms'
+				activity: 'Keyword Analysis and Targeted Backlinks'
 			}
 		],
-		service3: 'Data Management',
+		service3: 'Blog, Website and Content Creation',
 		activities3: [
 			{
 				id: 1,
-				activity: 'Evaluation of data needs'
+				activity: 'Daily Content Update'
 			},
 			{
 				id: 2,
-				activity: 'Database and requirements proposal'
+				activity: 'Ping Key sites to new Content'
 			},
 			{
 				id: 3,
-				activity: 'Server setup/management'
+				activity: 'Testing and Maintance of Webpage'
 			}
 		]
 	}
