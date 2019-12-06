@@ -37,7 +37,7 @@ const Slideshow = () => {
               </div>
             </Link>
           </div>
-          <div className="each-slide">
+          <div className="each-slide"> {/* link to plans based on the slide*/}
             <Link to='/plans'>
               <div style={{'backgroundImage': `url(${slide2})`}}>
                 <span>Slide 2</span>
@@ -45,7 +45,7 @@ const Slideshow = () => {
             </Link>
           </div>
           <div className="each-slide">
-            <Link to='/services'>
+            <Link to='/services'> {/* link to services based on the slide*/}
               <div style={{'backgroundImage': `url(${slide3})`}}>
                 <span>Slide 3</span>
               </div>
