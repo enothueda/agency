@@ -2,13 +2,18 @@
 	display: flex;
 	flex-direction: row;
 	font-size: 1.1em;
+
+	@media screen and (max-width: 800px) {
+		font-size: 0.9em;	
+	}
+
 	
 	& .row {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		width: 100%;
-		margin: 5px;
+		margin: 10px;
 
 		& .column {
 			display: flex;
@@ -16,13 +21,19 @@
 			flex-basis: 100%;
 			flex: 1;
 			align-items: center;
+			width: 30vw;
+
+			@media screen and (max-width: 800px) {
+				min-width: 320px;
+			}
+
 
 			& .plans-preview-image {
-			width: 350px;
-			height: 200px;
-			background-position: center;
-			background-size: cover;
-			margin-bottom: 20px;
+				width: 90%;
+				min-width: 200px;
+				padding-top: 50%;				
+				background-position: center;
+				background-size: cover;
 			}
 		
 			& .plan {
@@ -40,7 +51,7 @@
 					margin-bottom: 20px;
 
 					& h3 {
-						padding: 0 10px;
+						padding: 0;
 					}
 					
 					& .description-details {

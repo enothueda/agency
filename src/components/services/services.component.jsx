@@ -15,7 +15,7 @@ class Services extends React.Component {
 	render() {
 		return(
 			<div className='services'>
-				<h1>Services Provided for your Business</h1>
+				<h1>Digital Services according to your Business</h1>
 				<div className='serviceslist'>
 					{
 						this.state.services.map(({id, ...otherServicesProps}) => (

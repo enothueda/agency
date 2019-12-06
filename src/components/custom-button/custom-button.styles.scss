@@ -6,7 +6,7 @@
 	line-height: 50px;
 	padding: 0 35px;
 	font-size: 15px;
-	background-color: black;
+	background-color: green;
 	color: white;
 	text-transform: uppercase;	
 	font-weight: bolder;
@@ -15,7 +15,7 @@
 
 	&:hover{
 		background-color: white;
-		color: black;
-		border: 1px solid black;
+		color: green;
+		border: 1px solid green;
 	}
 }

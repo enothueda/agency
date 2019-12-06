@@ -3,7 +3,6 @@ import React from 'react';
 import './plans-preview.styles.scss';
 
 const PlansPreview = ({title, imageUrl, description, service1, service2, service3, activities1, activities2, activities3}) => {
-	console.log(title);
 	return (
 		<div className='plans-preview'>
 			<div className='row'>

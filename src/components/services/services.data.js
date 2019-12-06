@@ -11,18 +11,28 @@ const SERVICES_DATA = [
 		activities: [
 			{
 				id: 1,
-				name:'FrontEnd: HTML, CSS, JS, WordPress, React',
-				description: 'Design in HTML, CSS and JS for your website'
+				name:'Web Design: Modern and Responsive designs',
+				description: 'Modern trends on design for your business website'
 			},
 			{
 				id: 2,
-				name: 'BackEnd: SSR, PHP, Express, Node, MySQL, Postgresql',
-				description: 'Design in WordPress'
+				name: 'Web Development: Security and performance',
+				description: 'Develop evolving with the high standar of security and performance'
 			},
 			{
 				id: 3,
-				name: 'ecommerce: Shopify, Node',
-				description: 'develop and update according to the platform'
+				name: 'e-commerce: Your store on-line',
+				description: 'Develop and update according to the platform'
+			},
+			{
+				id: 4,
+				name:'Hosting and Deploy: Managing the base of your website',
+				description: 'Host it is important to take care for your website'
+			},
+			{
+				id: 5,
+				name: 'Web App and Mobile: All what you need in your mobile',
+				description: 'Technology has to be accesible and secure'
 			}
 		]
 	},
@@ -30,12 +40,12 @@ const SERVICES_DATA = [
 		id: 2,
 		title: 'Digital Marketing',
 		imageUrl: service2,
-		description: 'All tools for be on the clients are looking for your products or services',
+		description: 'All tools for be on the clients are looking for your products / services',
 		activities: [
 			{
 				id: 1,
 				name:'SEO',
-				description: 'Optimization in searchers and positioning your website'
+				description: 'Optimization to your business be positioned in the internet searchs'
 			},
 			{
 				id: 2,
@@ -44,8 +54,18 @@ const SERVICES_DATA = [
 			},
 			{
 				id: 3,
-				name: 'Content Creation, Photography and Video',
+				name: 'Content Creation and Photography',
 				description: 'The best content will be created according to your needs and strategy'
+			},
+			{
+				id: 4,
+				name:'Video Marketing',
+				description: 'Your products and services are sell better when clients see how that works'
+			},
+			{
+				id: 5,
+				name: 'Marketing Strategy',
+				description: 'Your business strategy is special and needs to be showed to your prospect clients'
 			}
 		]
 	},
@@ -53,22 +73,32 @@ const SERVICES_DATA = [
 		id: 3,
 		title: 'Data Management',
 		imageUrl: service3,
-		description: 'The data you need to measure for improve your business',
+		description: 'The data you know is important to measure for improve your business',
 		activities: [
 			{
 				id: 1,
 				name:'Database creation and optimization',
-				description: 'Design of all important data your business require'
+				description: 'Design of all important data your business require for a performed access'
 			},
 			{
 				id: 2,
 				name: 'Data Analisys',
-				description: 'Reports and important data will be created for you'
+				description: 'Reports and important data that you need to watch'
 			},
 			{
 				id: 3,
 				name: 'Business Intelligence',
-				description: 'Best strategies for improve your business will be created and gathered'
+				description: 'Better decision making with data for improve your business'
+			},
+			{
+				id: 4,
+				name:'Security',
+				description: 'Top Priority for Data Management'
+			},
+			{
+				id: 5,
+				name: 'Machine Learning',
+				description: 'Automate the data collection and analysis tools'
 			}
 		]
 	}

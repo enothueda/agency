@@ -16,6 +16,8 @@ const ServicesPreview = ({title, imageUrl, activities, description}) => (
 					<h3>{activities[0].name}</h3>
 					<h3>{activities[1].name}</h3>
 					<h3>{activities[2].name}</h3>
+					<h3>{activities[3].name}</h3>
+					<h3>{activities[4].name}</h3>
 				</div>
 			</div>
 			<div className='column'>

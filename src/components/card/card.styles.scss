@@ -1,11 +1,21 @@
 .card {
-	min-width: 20vw;
-	height: 275px;
+	min-width: 400px;
+	height: 300px;
 	margin: 0 7.5px 15px;
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
 	overflow: hidden;
+
+	@media screen and (max-width: 1430px) {
+		min-width: 300px;
+		height: 200px;
+	}
+
+	@media screen and (max-width: 1150px) {
+		min-width: 400px;
+		height: 300px;
+	}
 
 	&:hover {
 		cursor: pointer;
@@ -17,6 +27,7 @@
 
 		& .card-detail {
 			opacity: 0.9;
+			max-width: 350px;
 
 			& p {
 				display: block;
@@ -33,12 +44,13 @@
 	}
 
 	.card-detail {
-	width: 15vw;
+	min-width: 150px;
 	border: 1px solid black;
 	border-radius: 10px;
 	background-color: white;
 	opacity: 0.5;
 	position: absolute;
+	
 	
 		h2 {
 		margin: 5px;

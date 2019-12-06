@@ -15,7 +15,7 @@ class Plans extends React.Component {
 	render() {
 		return(
 			<div className='plans'>
-				<h1>Which Plan fits according to your business</h1>
+				<h1>Plans that keeps your business updated</h1>
 				<div className='planslist'>
 		        	{
 						this.state.plans.map(({id, ...otherPlansProps}) => (

@@ -1,17 +1,30 @@
 .footer {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap-reverse;
 
 	& .info {
-		width: 30%;
+		width: 500px;
 	}
 
 	& .social-network {
-		width: 15%;
+		width: 150px;
 		padding: 0 15px;
+
+		& .icons {
+			display: flex;
+			
+
+			& .icon {
+				width: 30px;
+				height: 30px;
+				margin: 5px;
+			}
+		}
 	}
 
 	& .contact {
-		width: 15%
+		width: 250px;
+		height: auto;
 	}
 }

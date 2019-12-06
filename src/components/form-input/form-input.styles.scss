@@ -34,8 +34,9 @@ $main-color: black;
 	}
 
 	input[name='message'] {
-
 		height: auto;
+		border: 1px solid $sub-color;
+		height: 5em;
 	}
 
 	.form-input-label {

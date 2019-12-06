@@ -83,14 +83,18 @@ const PLANS_DATA = [
 		activities1: [
 			{
 				id: 1,
-				activity: 'Content Distribution to Social Media Platforms'
+				activity: 'Include all Professional plan +'
 			},
 			{
 				id: 2,
-				activity: 'Engage with audience'
+				activity: 'Content Distribution to Social Media Platforms'
 			},
 			{
 				id: 3,
+				activity: 'Engage with audience'
+			},
+			{
+				id: 4,
 				activity: 'Manage and Report Reviews & Rating'
 			}
 		],
@@ -98,14 +102,18 @@ const PLANS_DATA = [
 		activities2: [
 			{
 				id: 1,
-				activity: 'Targeted Backlinks'
+				activity: 'Include all Professional plan +'
 			},
 			{
 				id: 2,
-				activity: 'Site Submission to Search Engines'
+				activity: 'Targeted Backlinks'
 			},
 			{
 				id: 3,
+				activity: 'Site Submission to Search Engines'
+			},
+			{
+				id: 4,
 				activity: 'Up to 30 Keywords Tracked'
 			}
 		],
@@ -113,14 +121,18 @@ const PLANS_DATA = [
 		activities3: [
 			{
 				id: 1,
-				activity: 'Keyword Tagging with Metadata Included'
+				activity: 'Include all Professional plan +'
 			},
 			{
 				id: 2,
-				activity: 'Website Optimization and Updates'
+				activity: 'Keyword Tagging with Metadata Included'
 			},
 			{
 				id: 3,
+				activity: 'Website Optimization and Updates'
+			},
+			{
+				id: 4,
 				activity: 'Online Support and Performance Tracking'
 			}
 		]	
@@ -134,14 +146,18 @@ const PLANS_DATA = [
 		activities1: [
 			{
 				id: 1,
-				activity: 'Upload to YouTube Fully Keyword Optimized'
+				activity: 'Includes Business Plan +'
 			},
 			{
 				id: 2,
-				activity: 'Key Annotation on Video'
+				activity: 'Upload to YouTube Fully Keyword Optimized'
 			},
 			{
 				id: 3,
+				activity: 'Key Annotation on Video'
+			},
+			{
+				id: 4,
 				activity: 'Create / Clean up Company Profile on Citation Sites'
 			}
 		],
@@ -149,14 +165,18 @@ const PLANS_DATA = [
 		activities2: [
 			{
 				id: 1,
-				activity: 'Up to 100 Keywords Tracked'
+				activity: 'Includes Business Plan +'
 			},
 			{
 				id: 2,
-				activity: 'Social Bookmarking of Key Content'
+				activity: 'Up to 100 Keywords Tracked'
 			},
 			{
 				id: 3,
+				activity: 'Social Bookmarking of Key Content'
+			},
+			{
+				id: 4,
 				activity: 'Keyword Analysis and Targeted Backlinks'
 			}
 		],
@@ -164,14 +184,18 @@ const PLANS_DATA = [
 		activities3: [
 			{
 				id: 1,
-				activity: 'Daily Content Update'
+				activity: 'Includes Business Plan +'
 			},
 			{
 				id: 2,
-				activity: 'Ping Key sites to new Content'
+				activity: 'Daily Content Update'
 			},
 			{
 				id: 3,
+				activity: 'Ping Key sites to new Content'
+			},
+			{
+				id: 4,
 				activity: 'Testing and Maintance of Webpage'
 			}
 		]

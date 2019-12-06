@@ -2,11 +2,13 @@
 	& h1 {
 		display: flex;
 		justify-content: center;
+		text-align: center;
 	}
 
 	& .planslist {
 	  display: flex;
 	  justify-content: center;
+	  flex-wrap: wrap;
 	}
 }
 
