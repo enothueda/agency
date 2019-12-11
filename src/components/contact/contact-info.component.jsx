@@ -7,7 +7,7 @@ const ContactInfo = () => (
 		<span>Martinez de Navarrete 610-A, Las Fuentes</span>
 		<span>Zamora, Michoacan</span>
 		<span>(+52) 33 2325 3831</span>
-		<span>contacto@ehueda.com.mx</span>
+		<span>contact@ehueda.com</span>
 	</div>
 );
 

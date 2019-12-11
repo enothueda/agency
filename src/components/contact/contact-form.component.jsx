@@ -67,7 +67,7 @@ class ContactForm extends React.Component {
 						maxLength= '100'
 					/>
 
-					<CustomButton type='submit'> Enviar </CustomButton>
+					<CustomButton type='submit'> Send </CustomButton>
 				</form>
 				
 			</div>
