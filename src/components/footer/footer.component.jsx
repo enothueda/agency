@@ -15,7 +15,7 @@ const Footer = () => (
 			<h3>Company's Information</h3>
 			<p>
 				ehueda is a digital services agency focused on promote and improve agribusiness sales, 
-				getting close more customers and consolidate the actual one, 
+				getting close more customers and consolidate the actual ones, 
 				through tools and support with innovative digital technology according to your business strategy.
 			</p>
 		</div>
