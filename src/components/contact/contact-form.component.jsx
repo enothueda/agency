@@ -3,6 +3,8 @@ import React from 'react';
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component';
 
+import { saveMessageIntoDatabase } from '../../firebase/firebase.utils';
+
 import './contact-form.styles.scss';
 
 class ContactForm extends React.Component {
@@ -11,6 +13,7 @@ class ContactForm extends React.Component {
 
 		this.state = {
 			name: '',
+			company: '',
 			email: '',
 			phone: '',
 			message: ''
@@ -20,7 +23,11 @@ class ContactForm extends React.Component {
 	handleSubmit = event => {
 		event.preventDefault();
 
-		this.setState({name: '', email: '',	phone: '', message: ''})
+		const messageForm = this.state
+
+		saveMessageIntoDatabase(messageForm);
+
+		this.setState({name: '', company: '', email: '',	phone: '', message: ''})
 	}
 
 	handleChange = event => {
@@ -33,6 +40,7 @@ class ContactForm extends React.Component {
 		return (
 			<div className='contact-form'>
 				<h2>Question or Comments</h2>
+				<p className='message-sent'>Your Message has been sent. Thank you</p>
 				<form onSubmit={this.handleSubmit} >
 					<FormInput 
 						name="name"
@@ -41,6 +49,13 @@ class ContactForm extends React.Component {
 						handleChange={this.handleChange}
 						label='Name'
 						required
+					/>
+					<FormInput 
+						name="company"
+						type="text" 
+						value={this.state.company}
+						handleChange={this.handleChange}
+						label='Company'
 					/>
 					<FormInput 
 						name="email"
@@ -55,8 +70,7 @@ class ContactForm extends React.Component {
 						type="tel"						
 						value={this.state.phone}
 						handleChange={this.handleChange}
-						label='Phone (10 digits)'
-						required
+						label='Phone'
 					/>
 					<FormInput
 						name="message"
