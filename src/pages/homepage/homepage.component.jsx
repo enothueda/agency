@@ -15,7 +15,7 @@ const HomePage = () => (
 	    </Link>
 	    <Link to="/plans">
 	    	<Plans />
-	    </Link>
+	    </Link>		
 	</div>
 )
 

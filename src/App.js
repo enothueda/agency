@@ -10,8 +10,7 @@ import PlansPage from './pages/plans/planspage.component';
 import ContactPage from './pages/contact/contact-page.component';
 import Footer from './components/footer/footer.component';
 
-const App = () => 
-  (
+const App = () =>   
     <div className="App">
     	<Header />
     	<Switch>
@@ -22,7 +21,7 @@ const App = () =>
 	    </Switch>
 	    <Footer />
     </div>
-  );
+;
 
 
 export default App;
